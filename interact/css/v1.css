@@ -1,0 +1,22 @@
+/* v1.css */
+#banner {
+    background: url('../img/intro-bg.jpg') center center no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+
+#banner > div {
+    padding: 16em 0 8em;
+    background-color: rgba(0, 0, 0, .2);
+}
+
+#banner > div > h1 {
+    font-size: 4.8em;
+}
+
+#banner > div > h3 {
+    width: 900px;
+    margin: 0 auto 4em;
+    font-weight: normal;
+}

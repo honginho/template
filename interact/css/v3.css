@@ -1,0 +1,52 @@
+/* v3.css */
+#about {
+    display: flex;
+    background: #fff;
+}
+
+#about > .img {
+    width: 550px;
+}
+
+#about > .container {
+    width: 100%;
+    padding-left: 4em;
+}
+
+#about > .container > .title {
+    margin-bottom: 1em;
+    font-size: 2em;
+}
+
+#about > .container > .title > span {
+    border-bottom: 4px solid #5ca4fb;
+}
+
+#about > .container > .details {
+    margin-bottom: 2em;
+    color: #666;
+}
+
+#about > .container > .sub-content > .title {
+    margin-bottom: 1em;
+}
+
+#about > .container > .sub-content > ul {
+    display: flex;
+    padding-left: 2em;
+}
+
+#about > .container > .sub-content > ul > div {
+    width: 100%;
+}
+
+#about > .container > .sub-content > ul > div > li {
+    margin-bottom: 0.4em;
+    color: #666;
+}
+
+#about > .container > .sub-content > ul > div > li > i {
+    padding-right: .6em;
+    color: #5ca4fb;
+    font-size: .6em;
+}

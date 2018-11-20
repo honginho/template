@@ -1,0 +1,41 @@
+/* v1.css */
+#features {
+    background: #f6f6f6;
+    text-align: center;
+}
+
+#features > .title {
+    margin-bottom: 2em;
+    font-size: 2em;
+}
+
+#features > .title > span {
+    border-bottom: 4px solid #5ca4fb;
+}
+
+#features > ul {
+    display: flex;
+}
+
+#features > ul > li {
+    padding: 0 1em;
+}
+
+#features > ul > li > div {
+    margin-bottom: 1em;
+}
+
+#features > ul > li > div > i {
+    width: 3em;
+    height: 3em;
+    padding: 1em 0;
+    background: #5ca4fb;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 2em;
+}
+
+#features > ul > li > p {
+    color: #666;
+    font-size: 0.9em;
+}
