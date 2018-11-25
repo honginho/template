@@ -1,0 +1,46 @@
+#services {
+    background: #608efd;
+    color: #fff;
+}
+
+#services > .title > span {
+    border-color: #8faffe;
+}
+
+#services > p {
+    margin-bottom: 4em;
+}
+
+#services > ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#services > ul > li {
+    width: 30%;
+    padding: 3em 1em;
+}
+
+#services > ul > li > div {
+    margin-bottom: 1em;
+}
+
+#services > ul > li > div > i {
+    width: 4em;
+    height: 4em;
+    padding: 1.5em 0;
+    background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, .05);
+    color: #fff;
+    font-size: 2em;
+}
+
+#services > ul > li > h2 {
+    margin-bottom: 0.4em;
+}
+
+#services > ul > li > p {
+    font-size: 0.9em;
+}

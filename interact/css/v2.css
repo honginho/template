@@ -1,16 +1,6 @@
 /* v1.css */
 #features {
     background: #f6f6f6;
-    text-align: center;
-}
-
-#features > .title {
-    margin-bottom: 2em;
-    font-size: 2em;
-}
-
-#features > .title > span {
-    border-bottom: 4px solid #5ca4fb;
 }
 
 #features > ul {
@@ -33,6 +23,10 @@
     border-radius: 50%;
     color: #fff;
     font-size: 2em;
+}
+
+#features > ul > li > h2 {
+    margin-bottom: 0.4em;
 }
 
 #features > ul > li > p {

@@ -73,4 +73,14 @@ nav > ul > li > a:hover > span {
 
 section.normal {
     padding: 4em 6em;
+    text-align: center;
+}
+
+section.normal > .title {
+    margin-bottom: 2em;
+    font-size: 2em;
+}
+
+section.normal > .title > span {
+    border-bottom: 4px solid #5ca4fb;
 }
