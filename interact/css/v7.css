@@ -1,0 +1,24 @@
+#team {
+    background: #fff;
+}
+
+#team > p {
+    margin-bottom: 4em;
+}
+
+#team > ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+#team > ul > li {
+    width: 30%;
+}
+
+#team > ul > li > h4 {
+    margin: 0.2em 0;
+}
+
+#team > ul > li > h5 {
+    color: #666;
+}

@@ -56,6 +56,45 @@ nav > ul > li > a:hover > span {
     border-bottom: 2px solid #5f94fc;
 }
 
+footer {
+    background: #608efd;
+    color: #fff;
+    text-align: center;
+}
+
+footer > p > a {
+    padding: 0 2px;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    font-weight: bold;
+    transition: .2s;
+}
+
+footer > p > a:hover {
+    background: #fff;
+    border-radius: 6px;
+    color: #608efd;
+}
+
+footer > .icons {
+    font-size: 2em;
+}
+
+footer > .icons > i {
+    width: 1.6em;
+    margin: 0 0.6em;
+    border: 2px solid #fff;
+    border-radius: 0.2em;
+    cursor: pointer;
+    line-height: 1.5em;
+    transition: .2s;
+}
+
+footer > .icons > i:hover {
+    background: #fff;
+    color: #608efd;
+}
+
 .btn {
     all: unset;
     display: inline-block;
@@ -72,12 +111,17 @@ nav > ul > li > a:hover > span {
     background: #6372ff;
 }
 
-section.normal {
+.hr {
+    margin: 2em 0;
+    border-top: 1px solid rgba(255, 255, 255, .15);
+}
+
+.normal {
     padding: 4em 6em;
     text-align: center;
 }
 
-section.normal > .title {
+.normal > .title {
     margin-bottom: 2em;
     font-size: 2em;
 }
