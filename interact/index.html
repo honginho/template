@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title> INTERACT - ver 7.0 </title>
+    <title> INTERACT - beta </title>
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="./css/v5.css">
     <link rel="stylesheet" href="./css/v6.css">
     <link rel="stylesheet" href="./css/v7.css">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 </head>
 <body>
     <nav>
@@ -24,37 +26,37 @@
         </div>
         <ul>
             <li>
-                <a href="./v1.html">
+                <a href="#banner">
                     <span> version 1 </span>
                 </a>
             </li>
             <li>
-                <a href="./v2.html">
+                <a href="#features">
                     <span> version 2 </span>
                 </a>
             </li>
             <li>
-                <a href="./v3.html">
+                <a href="#about">
                     <span> version 3 </span>
                 </a>
             </li>
             <li>
-                <a href="./v4.html">
+                <a href="#services">
                     <span> version 4 </span>
                 </a>
             </li>
             <li>
-                <a href="./v5.html">
+                <a href="#gallery">
                     <span> version 5 </span>
                 </a>
             </li>
             <li>
-                <a href="./v6.html">
+                <a href="#clients">
                     <span> version 6 </span>
                 </a>
             </li>
             <li>
-                <a href="./v7.html">
+                <a href="#team">
                     <span> version 7 </span>
                 </a>
             </li>
@@ -445,5 +447,15 @@
             © Copyright. All rights reserved | Practiced by <a href="https://github.com/honginho">Honginho</a> | Designed by TemplateWire
         </p>
     </footer>
+
+    <script>
+            $('a').click(function(){
+                $('html, body').animate({
+                    scrollTop: $($(this).attr('href')).offset().top
+                }, 1000, 'swing');
+
+                return false;
+            });
+        </script>
 </body>
 </html>
